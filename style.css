@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: #d4d4d4;
+  font-family: Nunito;
+}
+div.bg {
+  background-image: url(banner.jpg);
+}
+div.panel{
+
+  margin-right: 20%;
+  margin-left: 20%;
+  border-radius: 8px;
+  padding: 2px;
+  border-style: solid;
+  border-color: rgb(23, 255, 23);
+  line-break: auto;
+  text-align: left;
+}
+div.inner {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+body {
+  text-align: center;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.bigtitle {
+  animation-name: rgb_text_anim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; 
+  font-family: 'Comfortaa';
+  font-size: 70px;
+  text-align: center;
+}
+@keyframes rgb_text_anim {
+  0% {
+    color: rgb(23, 255, 23);
+  }
+  50% {
+    color: rgb(23,23,23);
+  }
+  100% {
+    color: rgb(23,255,23);
+  }
+}
